@@ -1,3 +1,45 @@
-body {
-	background:blue;
+
+#image1{
+	padding: 2px;
+	border: dotted	#FF7F50 2px;
+	width: 709px;
 }
+
+#image2{
+	margin-bottom: 5px;
+	padding: 4px;
+	margin-right: 2px;
+	width: 640px;
+}
+
+.pic{
+border-radius: 	20px; 
+}
+
+
+footer{
+	text-align: center;
+}
+
+body{
+	background-image: url("https://t-ec.bstatic.com/images/hotel/max1024x768/765/76597653.jpg") ;
+	height: 100%;
+	z-index: -1;
+}
+
+.para{
+	font-size: 40px;
+	font-family: monospace;
+}
+
+a:visited { 
+    color: pink;
+}
+
+@media screen and (max-width: 400px) and (min-width: 220px) {
+    ul li p {
+       color: 	#C71585 ; 
+        
+    }
+}
+
